@@ -1,1 +1,4 @@
-# ddroidd
+# I met all the requirements from the backend challenge. My application follows the Model - View - Controller architecture. I implemented the user interaction through a simple graphical user interface, defined as "GUI" in the view package. It communicates with the controller, which connects every piece of my app. The model package contains the product and shipping rate records, an enumeration holding the possible shipping countries and a class for the cart. The cart contains a hashmap with a product as key and its occurences as value. 
+# The graphical user interface allows the user to select the items from the list, add them to cart and proceed to checkout. When the "Checkout" button is pressed, the cart is automatically cleared.
+# The app's response to the user's input is displayed in the console. The user is able to see the current contents of their cart every time it is updated. The initial products are also displayed when the app is started.
+# Regarding the shipping fee discount, I only applied a discount of $10 if the shipping fee was above this value. In the other case, the shipping discount equals the shipping value, so it becomes free.
